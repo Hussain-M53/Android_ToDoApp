@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        app:showAsAction="always"
+        android:title="TODO"
+        />
+    <item android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always"
+        android:title="Search"
+        />
+    <item android:id="@+id/delete"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Delete All"
+        app:showAsAction="never"/>
+    <item android:id="@+id/viewAll"
+        android:icon="@drawable/ic_baseline_preview_24"
+        android:title="View All"
+        app:showAsAction="always"/>
+</menu>
